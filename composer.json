@@ -1,0 +1,19 @@
+{
+    "name": "czechboy/ip32bit",
+    "description": "Convert IP to long and vice versa on 32 bit systems.",
+    "license": [
+        "MIT",
+        "BSD-3-Clause",
+        "GPL-2.0",
+        "GPL-3.0"
+    ],
+    "require": {
+        "php": ">=5.4 || >=7.0"
+    },
+    "require-dev": {
+        "nette/tester": "^1.5"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
